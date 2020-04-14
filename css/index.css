@@ -1,28 +1,35 @@
-:root {
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(255, 255, 255);
-  background-color: rgb(17, 17, 17);
-}
-
 .welcomeHeader {
   color: rgb(204, 51, 204);
-  text-align: left;
+  padding-top: 20px;
   padding-left: 20px;
+  text-align: left;
+  display: inline;
 }
 
 .topNavBar {
-  text-align: center;
+  justify-content: center;
+  text-align: right;
 }
 
 .topNavBar a {
-  text-decoration: underline;
-  padding-right: 10px;
+  padding-right: 7px;
+  padding-left: 7px;
 }
 
 .headerImages {
   padding-top: 10px;
 }
 
+.Image1 {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
+  font-family: 'Girassol', cursive;
+  font-size: 25px;
+  /* font-family: 'Open Sans', sans-serif; */
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 17, 17);
   text-align: center;
 }
