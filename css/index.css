@@ -1,26 +1,25 @@
 .welcomeHeader {
+  border: 5px solid rgb(255, 255, 255);
   color: rgb(204, 51, 204);
   padding-top: 20px;
   padding-left: 20px;
-  text-align: left;
-  display: inline;
+  text-align: center;
+  display: flex;
+  width: auto;
 }
 
-.topNavBar {
-  justify-content: center;
-  text-align: right;
-}
-
-.topNavBar a {
-  padding-right: 7px;
-  padding-left: 7px;
+.navBar {
+  border: 5px solid rgb(255, 255, 255);
+  width: 35%;
 }
 
 .headerImages {
+  border: 5px solid rgb(255, 255, 255);
   padding-top: 10px;
 }
 
 .Image1 {
+  border: 5px solid rgb(255, 255, 255);
   max-width: 100%;
   height: auto;
 }
