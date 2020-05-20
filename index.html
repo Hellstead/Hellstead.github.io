@@ -3,42 +3,55 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- My Css -->
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&amp;display=swap" rel="stylesheet">
+
     <title>Hellstead Undead</title>
-
-    <!--
-    Link dependancy's to index.html file
-      -->
-
-      <link rel="stylesheet" href="./css/index.css">
-      <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
   </head>
 
   <body>
-
-    <div class="welcomeHeader">
-      <h3>Welcome to Hellstead Undead</h3>
-    </div>
-<!-- Navbar -->
-    <div class="navBar">
-      <!-- Links -->
-      <ul class="navbarItems">
-        <li>Home</li>
-
-      </ul>
+    <div class="container titleText">
+      <h2>Hellstead Undead</h2>
     </div>
 
-    <div class="headerImages">
-      <img class="Image1" src="./assets/images/Main2.jpg" alt="" height="250" width="444">
+    <div class="container Abyss">
+      <h1>Welcome To The Abyss</h1>
     </div>
 
-    <p>This is unfinished</p>
+    <div class="container pageContent">
+      <div class="row">
+        <div class="col-sm">
+          <p>Let me know what you think of Hellstead and what you'd like to see added/changed in future updates. All feedback is welcome!</p>
 
-    <div class="container-fluid">
-      <p>this is a test</p>
-      <button>Another test</button>
-      <p>once again, another test</p>
-    </div>
+          <div class="container contactFormDiv" id="userForm">
+            <form class="contactForm" action="/php/form.php">
+              <label for="username">Name/User:</label><br>
+              <input type="text" name="username" placeholder="Hallowed"><br>
+              <label for="email">Email:</label><br>
+              <input type="email" name="email" placeholder="Test@Example.com" required><br>
+              <label for="comment">Comment:</label><br>
+              <textarea name="comment" form="userForm" style="height: 200px;"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+        </div>
+        <div class="col-sm">
+          <iframe src="https://widgets.gamejolt.com/package/v1?key=aqptuaBa" frameborder="0" width="500" height="245"></iframe>
+        </div>
+      </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
   </body>
 </html>
