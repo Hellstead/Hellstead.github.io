@@ -22,11 +22,11 @@ body {
   color: #ffffff
 }
 
-.contactFormDiv {
+.gForm {
   padding-bottom: 100px;
 }
 
-.contactForm input {
+.gForm input {
   border-width: thin;
   border-style: solid;
   border-color: rgb(17, 17, 17);
@@ -34,7 +34,7 @@ body {
   color: #ffffff;
 }
 
-.contactForm textarea {
+.gForm textarea {
   border-width: thin;
   border-style: solid;
   border-color: rgb(5, 5, 5);
@@ -68,25 +68,25 @@ body {
   }
 }
 
-.contactForm input:hover {
+.gForm input:hover {
   animation-name: formAnimate;
   animation-duration: .5s;
   animation-fill-mode: forwards;
 }
 
-.contactForm input:not(hover) {
+.gForm input:not(hover) {
   animation-name: formAnimate2;
   animation-duration: .5s;
   animation-fill-mode: forwards;
 }
 
-.contactForm textarea:hover {
+.gForm textarea:hover {
   animation-name: formAnimate;
   animation-duration: .5s;
   animation-fill-mode: forwards;
 }
 
-.contactForm textarea:not(hover) {
+.gForm textarea:not(hover) {
   animation-name: formAnimate2;
   animation-duration: .5s;
 }

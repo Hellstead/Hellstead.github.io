@@ -33,15 +33,21 @@
         <div class="col-sm">
           <p>Let me know what you think of Hellstead and what you'd like to see added/changed in future updates. All feedback is welcome!</p>
 
-          <div class="container contactFormDiv" id="userForm">
-            <form class="contactForm" action="/php/form.php">
+          <div class="container form-elements">
+            <form class="gForm form-elements" method="POST" action="https://script.google.com/macros/s/AKfycbzJ3CQr4uvvbOXkxqvIzM9Al-LyfmWdL0e1_khAuwC8mQmeZbQg/exec">
               <label for="username">Name/User:</label><br>
-              <input type="text" name="username" placeholder="Bob Ross"><br>
+              <input type="text" name="name" placeholder="Bob Ross"><br>
               <label for="email">Email:</label><br>
               <input type="email" name="email" placeholder="email@provider.com" required><br>
               <label for="comment">Comment:</label><br>
-              <textarea name="comment" form="userForm" style="height: 200px;"></textarea>
+              <textarea name="message" style="height: 200px;"></textarea>
               <input type="submit" value="Submit">
+
+              <div class="thankyou_message" style="display:none;">
+                <h2><em>Thanks</em> for contacting us!
+                  We will get back to you soon!</h2>
+                </div>
+
             </form>
           </div>
 
@@ -51,6 +57,8 @@
         </div>
       </div>
     </div>
+
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
