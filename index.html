@@ -11,6 +11,8 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
+    <script type="text/javascript" src="/js/index.js"></script>
+
     <title>Hellstead Undead</title>
 
   </head>
@@ -41,13 +43,7 @@
               <input type="email" name="email" placeholder="email@provider.com" required><br>
               <label for="comment">Comment:</label><br>
               <textarea name="message" style="height: 200px;"></textarea>
-              <input type="submit" value="Submit">
-
-              <div class="thankyou_message" style="display:none;">
-                <h2><em>Thanks</em> for contacting us!
-                  We will get back to you soon!</h2>
-                </div>
-
+              <input type="submit" value="Submit" onclick="refreshPage()">
             </form>
           </div>
 
